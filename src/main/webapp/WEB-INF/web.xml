@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+
+    <servlet>
+        <servlet-name>CallbackServlet</servlet-name>
+        <servlet-class>com.reminder.app.CallbackServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CallbackServlet</servlet-name>
+        <url-pattern>/callback</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CallServlet</servlet-name>
+        <servlet-class>com.reminder.app.CallServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CallServlet</servlet-name>
+        <url-pattern>/call</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StartServlet</servlet-name>
+        <servlet-class>com.reminder.app.NumbersServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StartServlet</servlet-name>
+        <url-pattern>/start</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CallId</servlet-name>
+        <servlet-class>com.reminder.app.CallIdServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CallId</servlet-name>
+        <url-pattern>/callid</url-pattern>
+    </servlet-mapping>
+
+</web-app>
