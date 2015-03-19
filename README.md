@@ -24,7 +24,7 @@ Now we want to deploy it to a running web server. These are the steps to deploy 
 
 Heroku Deployment
 
-You'll first need to ensure that you have a Heroku account and that the Heroku toolbelt has been installed for your environment (https://devcenter.heroku.com/articles/heroku-command)
+You'll first need to ensure that you have a Heroku account and that the Heroku toolbelt has been installed for your environment (3.30 as of March/2015 - https://devcenter.heroku.com/articles/heroku-command)
 
 The steps to deploy the example app to Heroku are:
 
