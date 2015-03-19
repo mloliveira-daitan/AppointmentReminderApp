@@ -7,8 +7,8 @@ You'll need the following prerequisites to run these:
 - A Bandwidth Application Platform account (https://catapult.inetwork.com/pages/signup.jsf)
 - An available phone number on your Bandwidth Account
 - A Heroku Account (https://www.heroku.com/)
-- Maven 3.0.5 installed (http://maven.apache.org/download.cgi#Installation)
-- JDK 8 installed (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- Latest Maven version installed (3.3.1 as of March/2015 - http://maven.apache.org/download.cgi#Installation)
+- Latest JDK version installed (8u40 as of March/2015 - http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 You can obtain one phone number on the app platform by following these steps:
 
@@ -32,17 +32,11 @@ You'll first need to ensure that you have a Heroku account and that the Heroku t
 
 The steps to deploy the example app to Heroku are:
 
-1. Set up the git repo
-2. Create a new Heroku app
-3. Configure the Heroku app
-4. Push the project to Heroku
+1. Create a new Heroku app
+2. Configure the Heroku app
+3. Push the project to Heroku
 
-Step 1 - Set up the git repo
-
-	cd ReminderApp
-	git init
-
-Step 2 - Create a new Heroku app
+Step 1 - Create a new Heroku app
 
 	heroku apps:create
 
@@ -54,7 +48,7 @@ The following output will be showed in the console:
 
 Your Heroku app name is <strong>infinite-springs-9079</strong>.
 
-Step 3 - Configure the new Heroku app with your App Platform credentials and Heroku app name
+Step 2 - Configure the new Heroku app with your App Platform credentials and Heroku app name
 
 Log into the Bandwidth Platform UI, go to "Account" tab and obtain your credentials. Then run the following commands:
 
@@ -63,7 +57,7 @@ Log into the Bandwidth Platform UI, go to "Account" tab and obtain your credenti
 	heroku config:set BANDWIDTH_API_SECRET='<your api secret from Bandwidth Platform>' --app <heroku app name>
 	heroku config:set HEROKU_APP_NAME='<your Heroku app name here>' --app <heroku app name>
 
-Step 4 - Push the project to heroku
+Step 3 - Push the project to heroku
 
 	git push heroku master
 	heroku ps:scale web=1
