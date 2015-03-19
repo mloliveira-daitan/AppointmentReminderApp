@@ -1,7 +1,5 @@
 This is an Appointment Reminder Application example from Bandwidth.
 
----
-
 You'll need the following prerequisites to run these:
 
 - A Bandwidth Application Platform account (https://catapult.inetwork.com/pages/signup.jsf)
@@ -16,8 +14,6 @@ You can obtain one phone number on the app platform by following these steps:
  	Go to My Numbers tab and select Get New Numbers
  	Fill in the form for a number in your area and click the Search button
  	Select one of the numbers and click the Get Numbers button
-
----
 
 Create a new directory where you want to clone the example app and run the following commands from there:
 
