@@ -1,10 +1,19 @@
-This is a Appointment Reminder Application example from Bandwidth.
+This is an Appointment Reminder Application example from Bandwidth.
 
 You'll need the following prerequisites to run these:
 
 - A Bandwidth Application Platform account (https://catapult.inetwork.com/pages/signup.jsf)
-- Maven installed (http://maven.apache.org/download.cgi#Installation)
-- Jdk installed (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- An available phone number on your Bandwidth Account
+- A Heroku Account (https://www.heroku.com/)
+- Maven 3.0.5 installed (http://maven.apache.org/download.cgi#Installation)
+- JDK 8 installed (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+You can obtain one phone number on the app platform by following these steps:
+
+    Log in to the App Platform (https://catapult.inetwork.com/pages/login.jsf)
+ 	Go to the My Numbers tab and select Get New Numbers
+ 	Fill in the form for a number in your area and click the Search button
+ 	Select one of the numbers and click the Get Numbers button
 
 Create a new directory where you want to clone the example app and run the following commands from there:
 
@@ -65,14 +74,7 @@ And you can run the app in your browser with the following command line:
 
 You can use the reminder application to call a number and do a simple gather menu.
 
-You'll need a phone number on the app platform. You can get one by following these steps:
-
-    Log in to the App Platform (https://catapult.inetwork.com/pages/login.jsf)
- 	Go to the My Numbers tab and select Get New Numbers
- 	Fill in the form for a number in your area and click the Search button
- 	Select one of the numbers and click the Get Numbers button
-
-Go to the reminder app, fill the "From Number" field with a Platform number and "To Number" field with a number you want to receive the call.
+Go to the reminder app, fill the "From Number" field with your Bandwidth Platform number and "To Number" field with a number you want to receive the call.
 Click on the Create Call button. In a few seconds, you'll receive a phone call in your "To Number" phone.
 
 You can go through the following options in your phone:
